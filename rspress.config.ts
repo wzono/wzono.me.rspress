@@ -5,17 +5,22 @@ export default defineConfig({
   root: path.join(__dirname, "docs"),
   title: "WesleyZon",
   description: "WesleyZon's Blog",
-  icon: "/rspress-icon.png",
+  icon: "/signature-light.png",
   logo: {
-    light: "/rspress-light-logo.png",
-    dark: "/rspress-dark-logo.png",
+    light: "/signature-light.png",
+    dark: "/signature-dark.png",
   },
   themeConfig: {
     socialLinks: [
       {
         icon: "github",
         mode: "link",
-        content: "https://github.com/web-infra-dev/rspress",
+        content: "https://github.com/wzono",
+      },
+      {
+        icon: "x",
+        mode: "link",
+        content: "https://x.com/wzono1",
       },
     ],
   },
